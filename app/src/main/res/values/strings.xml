@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Money Converter</string>
+    <string name="money_intro">Menghitung uang asing tanpa ribet dengan Money Converter</string>
+    <string name="usd_intro">Konversi mata uang USD ke IDR</string>
+    <string name="euro_intro">Konversi mata uang EUR ke IDR</string>
+    <string name="hitung">Hitung</string>
+    <string name="dollar">Dollar</string>
+    <string name="euro">Euro</string>
+    <string name="Idr_x">IDR: %1$.2f</string>
+    <string name="berat_invalid">Data tidak boleh kosong.</string>
+    <string name="tinggi_invalid">Tinggi tidak boleh kosong.</string>
+    <string name="uang_usd">USD :</string>
+    <string name="uang_euro">EUR :</string>
+    <string name="tinggi_badan">Tinggi badan (cm)</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Money Converter ini merupakan aplikasi yang dapat membantu kita untuk menghitung nilai mata uang asing dengan mata uang indonesia (IDR).
+        \n\nAplikasi ini dibuat untuk memenuhi tugas Assesment 2 mata kuliah MOBPRO 1
+        \n\nCopyright © 2023 Muhamad Rizki Mardiansyah.\nAll rights reserved.</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template">IDR: %s </string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="histori">Histori</string>
+    <color name="histori_usd">#FF9800</color>
+    <color name="histori_eur">#2167F3</color>
+    <string name="data_x">USD : %s</string>
+    <string name="data_y">EUR : %s</string>
+    <string name="data_z">IDR : %s</string>
+    <string name="mata_uang">Mata Uang : %s</string>
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+    <string name= "info_uang">Informasi Mata Uang</string>
+    <string name="koneksi_error">Koneksi error</string>
+    <string name="message">%1$s diklik!</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update data Uang otomatis</string>
+    <string name="notif_title">Ada yang baru nihh!</string>
+    <string name="notif_text">Cek sekarang biar nggak penasaran..</string>
+
+
+</resources>

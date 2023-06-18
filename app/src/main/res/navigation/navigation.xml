@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if3145.assesment2.ui.HomeFragment"
+        android:label="Money Converter">
+        <action
+            android:id="@+id/action_homeFragment_to_hitungFragment2"
+            app:destination="@id/hitungFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_hitEuroFragment"
+            app:destination="@id/hitEuroFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_informasiFragment"
+            app:destination="@id/informasiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hitungFragment2"
+        android:name="org.d3if3145.assesment2.ui.hitung.HitungFragment"
+        android:label="USD to IDR">
+        <action
+            android:id="@+id/action_hitungFragment2_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_hitungFragment2_to_historiFragment"
+            app:destination="@id/historiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hitEuroFragment"
+        android:name="org.d3if3145.assesment2.ui.hitung.HitEuroFragment"
+        android:label="EUR to IDR">
+        <action
+            android:id="@+id/action_hitEuroFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_hitEuroFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if3145.assesment2.ui.AboutFragment"
+        android:label="Tentang Aplikasi" />
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if3145.assesment2.ui.histori.HistoriFragment"
+        android:label="Histori" />
+    <fragment
+        android:id="@+id/informasiFragment"
+        android:name="org.d3if3145.assesment2.ui.informasi.InformasiFragment"
+        android:label="Informasi Mata Uang" />
+</navigation>
